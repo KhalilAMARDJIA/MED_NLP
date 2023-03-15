@@ -1,0 +1,4 @@
+__pycache__/
+.OPHT_SPACY/
+.ipynb_checkpoints/
+Model/**

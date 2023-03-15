@@ -1,0 +1,69 @@
+{
+    "SAMPLE_SIZE": [[
+        {"LIKE_NUM": true},
+        {"IS_PUNCT": true, "OP": "?"},
+        {"LIKE_NUM": true, "OP": "?"},
+        {"LOWER": {"IN": ["patients", "eyes", "subjects", "implants", "IOLs"]}},
+        {"OP": "?"},
+        {"IS_PUNCT": true, "OP": "?"},
+        {"IS_DIGIT": true, "OP": "?"},
+        {"IS_PUNCT": true, "OP": "?"},
+        {"LOWER": {"IN": ["patients", "eyes", "subjects", "implants", "IOLs"]}, "OP": "?"},
+        {"IS_PUNCT": true, "OP": "?"}
+    ]],
+    "ADVERSE_EVENT": [
+        [
+            {"LOWER": "cystoid", "OP": "?"},
+            {"LOWER": "macular", "OP": "?"},
+            {"LOWER": {"IN": ["edema", "oedema"]}, "OP": "?"},
+            {"TEXT": "(", "OP": "?"},
+            {"TEXT": "CME"},
+            {"TEXT": ")", "OP": "?"}
+        ],
+        [
+            {"LOWER": "posterior", "OP": "?"},
+            {"LOWER": "capsular", "OP": "?"},
+            {"LOWER": "rupture", "OP": "?"},
+            {"TEXT": "(", "OP": "?"},
+            {"TEXT": "PCR"},
+            {"TEXT": ")", "OP": "?"}
+        ],
+        [
+            {"LOWER": "uveitis", "OP": "?"},
+            {"LOWER": "-", "OP": "?"},
+            {"LOWER": "glaucoma", "OP": "?"},
+            {"LOWER": "-", "OP": "?"},
+            {"LOWER": "hyphema", "OP": "?"},
+            {"LOWER": "syndrome", "OP": "?"},
+            {"TEXT": "(", "OP": "?"},
+            {"TEXT": {"IN": ["UGH", "UGHS"]}},
+            {"TEXT": ")", "OP": "?"},
+            {"LOWER": "syndrome", "OP": "?"}
+        ],
+        [
+            {"LOWER": {"IN": ["hypopyon", "pus"]}},
+            {"OP": "?"},
+            {"OP": "?"},
+            {"LOWER": "anterior", "OP": "?"},
+            {"LOWER": "chamber", "OP": "?"}
+        ],
+        [
+            {"LOWER": {"IN": ["endophthalmitis", "Endophthalmitides"]}}
+        ],
+        [
+            {"LOWER": "lens", "OP": "?"},
+            {"OP": "?"},
+            {"OP": "?"},
+            {"LEMMA": {"IN": ["decentrate", "dislocate", "migrate", "displace", "tilt"]}}
+        ],
+        [
+            {"LOWER": "pupillary"},
+            {"LOWER": "block"}
+        ],
+
+        [
+            {"LOWER": {"IN": ["corneal", "stroma"]}, "OP": "?"}, 
+            {"LOWER": {"IN": ["edema", "oedema"]}}
+        ]
+    ]
+}

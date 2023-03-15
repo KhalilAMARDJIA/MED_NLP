@@ -1,0 +1,192 @@
+{
+    "Clinical outcomes": {
+        "Visual Acuity (VA)": {
+            "Uncorrected distance visual acuity": [
+                "Uncorrected distance visual acuity",
+                " UCDVA ",
+                " UDVA ",
+                "(UCDVA)",
+                "(UDVA)"
+            ],
+            "Corrected distance visual acuity": [
+                "Corrected distance visual acuity",
+                " CDVA ",
+                "(CDVA)"
+            ],
+            "Uncorrected intermediate visual acuity": [
+                "Uncorrected intermediate visual acuity",
+                " UCIVA ",
+                " UIVA ",
+                "(UCIVA)",
+                "(UIVA)"
+            ],
+            "Distance corrected intermediate visual acuity": [
+                "Distance corrected intermediate visual acuity",
+                " DCIVA ",
+                "(DCIVA)"
+            ],
+            "Corrected intermediate visual acuity": [
+                "Corrected intermediate visual acuity",
+                " CIVA ",
+                "(CIVA)"
+            ],
+            "Uncorrected near visual acuity": [
+                "Uncorrected near visual acuity",
+                " UCNVA ",
+                "(UCNVA)",
+                " UNVA ",
+                "(UNVA)"
+            ],
+            "Distance corrected near visual acuity": [
+                "Distance corrected near visual acuity",
+                " DCNVA ",
+                "(DCNVA)"
+            ],
+            "Corrected near visual acuity": [
+                "Corrected near visual acuity",
+                " CNVA ",
+                "(CNVA)"
+            ],
+            "Best corrected (distance) visual acuity": [
+                "Best corrected (distance) visual acuity",
+                "Best corrected visual acuity",
+                " BCVA ",
+                "(BCVA)",
+                " BC(D)VA ",
+                "(BC(D)VA)",
+                " BCDVA ",
+                "(BCDVA)"
+            ],
+            "Contrast Sensitivity": [
+                "Contrast Sensitivity"
+            ]
+        },
+        "Patient reported outcomes (PRO)": {
+            "Functional Assessment of Visual Tasks": [
+                "Functional Assessment of Visual Tasks",
+                " VISTAS ",
+                "(VISTAS)"
+            ],
+            "National Eye Institute Visual Function Questionnaire-39": [
+                "National Eye Institute Visual Function Questionnaire-39",
+                "National Eye Institute Visual Function Questionnaire 39",
+                " NEI VFQ-39 ",
+                " NEI VFQ 39 ",
+                "(NEI VFQ-39)",
+                "(NEI VFQ 39)"
+            ],
+            "National Eye Institute Visual Function Questionnaire-25": [
+                "National Eye Institute Visual Function Questionnaire-25",
+                "National Eye Institute Visual Function Questionnaire 25",
+                " NEI VFQ-25 ",
+                " NEI VFQ 25 ",
+                "(NEI VFQ-25)",
+                "(NEI VFQ 25)"
+            ],
+            "National Eye Institute Refractive Error Quality of Life Instrument-42": [
+                "National Eye Institute Refractive Error Quality of Life Instrument-42",
+                "National Eye Institute Refractive Error Quality of Life Instrument 42",
+                " NEI RQL-42 ",
+                " NEI RQL 42 ",
+                "(NEI RQL-42)",
+                "(NEI RQL 42)"
+            ],
+            "Quality of Life Impact of Refractive Correction": [
+                "Quality of Life Impact of Refractive Correction",
+                " QIRC ",
+                "(QIRC)"
+            ],
+            "Catquest": [
+                "Catquest"
+            ],
+            "Visual Function Index-14": [
+                "Visual Function Index-14",
+                "Visual Function Index 14",
+                " VF-14 ",
+                "(VF-14)"
+            ],
+            "Visual Function Index-7": [
+                "Visual Function Index-7",
+                "Visual Function Index 7",
+                " VF-7 ",
+                "(VF-7)"
+            ],
+            "VCM-1": [
+                "VCM-1"
+            ],
+            "Visual symptoms and quality of life (5-items)": [
+                "Cat-PROM5"
+            ],
+            "Near Activity Visual Questionnaire": [
+                "Near Activity Visual Questionnaire",
+                " NAVQ ",
+                "(NAVQ)"
+            ],
+            "Patient-reported Spectacle Independence Questionnaire": [
+                "Patient-reported Spectacle Independence Questionnaire",
+                " PRSIQ ",
+                "(PRSIQ)"
+            ],
+            "Spectacle Independence Lens Vision Evaluation and Repurchase": [
+                "Spectacle Independence Lens Vision Evaluation and Repurchase",
+                " SILVER ",
+                "(SILVER)"
+            ],
+            "Freedom from Glasses Value Scale": [
+                "Freedom from Glasses Value Scale",
+                " FGVS ",
+                "(FGVS)"
+            ],
+            "Quality of Vision": [
+                " QoV ",
+                "(QoV)"
+            ],
+            "Assessment of Photic Phenomena and Lens EffectS": [
+                "Assessment of Photic Phenomena and Lens EffectS",
+                " APPLES ",
+                "(APPLES)"
+            ],
+            "Pseudophakic Dysphotopsia Questionnaire": [
+                "Pseudophakic Dysphotopsia Questionnaire"
+            ],
+            "Visual Activities Questionnaire": [
+                "Visual Activities Questionnaire",
+                " VAQ ",
+                "(VAQ)"
+            ],
+            "Cataract TyPE Specification": [
+                "Cataract TyPE Specification"
+            ],
+            "Visual Disability Assessment and the Cataract Outcomes Questionnaire": [
+                "Visual Disability Assessment and the Cataract Outcomes Questionnaire"
+            ],
+            "Visual Symptoms and Quality of Life Questionnaire": [
+                "Visual Symptoms and Quality of Life Questionnaire",
+                " VSQ ",
+                "(VSQ)"
+            ]
+        },
+        "Other outcomes":{
+            "Pupil size": [
+                "Pupil size"
+            ],
+        "Accommodative amplitude": [
+            "Accommodative amplitude"
+        ],
+        "Subjective refraction": [
+            "Subjective refraction"
+        ],
+        "Lens stability": [
+            "Lens stability",
+            "Lens Tilt",
+            "Lens decentration"
+        ],
+        "Anterior chamber depth" : [
+            "Anterior chamber depth" 
+        ],
+        "Gonioscopy" : [
+            "Gonioscopy"
+        ]
+        }
+    }
+}

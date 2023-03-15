@@ -1,0 +1,150 @@
+{"id":1,"text":"A total of 50 patients were included in the study, with 25 patients in each group.","Comments":[],"label":[[11,13,"SAMPLE_SIZE"]]}
+{"id":2,"text":"The study recruited 100 participants, with 50 in the treatment group and 50 in the control group.","Comments":[],"label":[[20,23,"SAMPLE_SIZE"]]}
+{"id":3,"text":"We enrolled 30 patients in our study, with 15 in the experimental group and 15 in the control group.","Comments":[],"label":[[12,14,"SAMPLE_SIZE"]]}
+{"id":4,"text":"In this randomized controlled trial, 80 participants were recruited, with 40 in the intervention group and 40 in the control group.","Comments":[],"label":[[37,39,"SAMPLE_SIZE"]]}
+{"id":5,"text":"Fifty-five patients were included in the study, with 28 in the intervention group and 27 in the control group.","Comments":[],"label":[[0,10,"SAMPLE_SIZE"]]}
+{"id":6,"text":"Our study included 20 participants, with 10 in the treatment group and 10 in the control group.","Comments":[],"label":[[19,21,"SAMPLE_SIZE"]]}
+{"id":7,"text":"We recruited 200 patients for our study, with 100 in the experimental group and 100 in the control group.","Comments":[],"label":[[13,16,"SAMPLE_SIZE"]]}
+{"id":8,"text":"Thirty-two subjects were enrolled in the study, with 16 in the treatment group and 16 in the control group.","Comments":[],"label":[[0,11,"SAMPLE_SIZE"]]}
+{"id":9,"text":"The sample size for our study was 60 participants, with 30 in the experimental group and 30 in the control group.","Comments":[],"label":[[34,36,"SAMPLE_SIZE"]]}
+{"id":10,"text":"We included 45 patients in our study, with 23 in the treatment group and 22 in the control group.","Comments":[],"label":[[12,14,"SAMPLE_SIZE"]]}
+{"id":11,"text":"The study included 50 healthy volunteers aged 18-50 years, who underwent a 12-week weight loss intervention program.","Comments":[],"label":[[19,21,"SAMPLE_SIZE"]]}
+{"id":12,"text":"In total, 30 participants were recruited for the study, and were randomly assigned to either the intervention group or the control group.","Comments":[],"label":[[10,12,"SAMPLE_SIZE"]]}
+{"id":13,"text":"The sample consisted of 100 patients diagnosed with type 2 diabetes, who were recruited from a local clinic.","Comments":[],"label":[[24,27,"SAMPLE_SIZE"]]}
+{"id":14,"text":"A total of 20 subjects were included in the study, all of whom had a history of migraine headaches.","Comments":[],"label":[[11,13,"SAMPLE_SIZE"]]}
+{"id":15,"text":"The study enrolled 80 postmenopausal women, who were randomized to receive either the active treatment or placebo.","Comments":[],"label":[[19,21,"SAMPLE_SIZE"]]}
+{"id":16,"text":"Fifty-three patients with stage II or III breast cancer were included in the study, and were treated with a combination of chemotherapy and radiation therapy.","Comments":[],"label":[[0,11,"SAMPLE_SIZE"]]}
+{"id":17,"text":"A total of 25 healthy adults participated in the study, which involved a series of cognitive tests and brain imaging scans.","Comments":[],"label":[[11,13,"SAMPLE_SIZE"]]}
+{"id":18,"text":"The study included 120 children aged 5-12 years, who were diagnosed with attention deficit hyperactivity disorder (ADHD).","Comments":[],"label":[[19,22,"SAMPLE_SIZE"]]}
+{"id":19,"text":"Forty-two patients with chronic obstructive pulmonary disease (COPD) were recruited for the study, which evaluated the efficacy of a new treatment.","Comments":[],"label":[[0,9,"SAMPLE_SIZE"]]}
+{"id":20,"text":"A total of 15 healthy male volunteers participated in the study, which involved a series of physical fitness tests and measurements.","Comments":[],"label":[[11,13,"SAMPLE_SIZE"]]}
+{"id":21,"text":"Patients in the Tecnis group had a statistically significant better best corrected visual acuity (BCVA) compared to those in the AcrySof IQ group.","Comments":[],"label":[[68,103,"OUTCOME"]]}
+{"id":22,"text":"Contrast sensitivity was significantly better in the Tecnis group compared to the AcrySof IQ group at 3, 6, 12, and 18 cycles per degree.","Comments":[],"label":[[0,20,"OUTCOME"]]}
+{"id":23,"text":"At 6 months postoperatively, the mean contrast sensitivity function was significantly better in the TECNIS ZCB00 group.","Comments":[],"label":[[38,58,"OUTCOME"]]}
+{"id":24,"text":"The uncorrected distance visual acuity (UDVA) and BSCVA improved significantly after surgery in both groups.","Comments":[],"label":[[4,44,"OUTCOME"],[50,56,"OUTCOME"]]}
+{"id":25,"text":"The mean spherical equivalent refractive error was -0.12 D in the TECNIS group and -0.08 D in the AcrySof group, and the difference was not statistically significant.","Comments":[],"label":[[9,46,"OUTCOME"]]}
+{"id":26,"text":"Both the TECNIS and the AcrySof groups had significant improvements in mean spherical equivalent, UDVA, and BSCVA after surgery.","Comments":[],"label":[[76,96,"OUTCOME"],[98,102,"OUTCOME"],[108,113,"OUTCOME"]]}
+{"id":27,"text":"At 12 months, 92% of the TECNIS group and 89% of the AcrySof group achieved a BSCVA of 20\/40 or better.","Comments":[],"label":[[78,83,"OUTCOME"]]}
+{"id":28,"text":"Both groups had a significant improvement in BSCVA, but the improvement was greater in the TECNIS group.","Comments":[],"label":[[45,50,"OUTCOME"]]}
+{"id":29,"text":"The TECNIS group had a significantly better mean spherical equivalent and BSCVA compared to the AcrySof group at 6 months postoperatively.","Comments":[],"label":[[49,69,"OUTCOME"],[74,79,"OUTCOME"]]}
+{"id":30,"text":"At 3 months postoperatively, there was a statistically significant difference in BSCVA between the two groups, with the TECNIS group performing better.","Comments":[],"label":[[81,86,"OUTCOME"]]}
+{"id":31,"text":"Both groups had a significant improvement in visual acuity, with no significant difference between the groups.","Comments":[],"label":[[45,58,"OUTCOME"]]}
+{"id":32,"text":"Patients were assessed for visual acuity and corneal topography preoperatively and postoperatively at 1, 3, 6, and 12 months after the surgery.","Comments":[],"label":[[28,40,"OUTCOME"],[45,63,"OUTCOME"]]}
+{"id":33,"text":"At the final follow-up, the mean uncorrected distance visual acuity was 0.10 ± 0.07 logarithm of the minimum angle of resolution, the mean BSCVA was 0.03 ± 0.04 logarithm of the minimum angle of resolution, and the mean astigmatism was -0.47 ± 0.28 diopters.","Comments":[],"label":[[33,67,"OUTCOME"],[139,144,"OUTCOME"],[215,231,"OUTCOME"]]}
+{"id":34,"text":"At the 1-year follow-up, the mean postoperative BSCVA improved to 0.00 ± 0.02 logarithm of the minimum angle of resolution, and the mean refractive cylinder was -0.23 ± 0.26 diopters.","Comments":[],"label":[[48,53,"OUTCOME"],[137,156,"OUTCOME"]]}
+{"id":35,"text":"The mean refractive prediction error was 0.18 ± 0.24 diopters, and the mean postoperative refractive cylinder was -0.20 ± 0.26 diopters at the 1-year follow-up.","Comments":[],"label":[[9,36,"OUTCOME"],[90,109,"OUTCOME"]]}
+{"id":36,"text":"The mean spherical equivalent was -0.04 ± 0.29 diopters, and the mean refractive cylinder was -0.17 ± 0.25 diopters at the 6-month follow-up.","Comments":[],"label":[[9,30,"OUTCOME"],[70,89,"OUTCOME"]]}
+{"id":37,"text":"The mean BSCVA was 0.03 ± 0.05 logarithm of the minimum angle of resolution, and the mean refractive cylinder was -0.44 ± 0.27 diopters at the 6-month follow-up.","Comments":[],"label":[[9,14,"OUTCOME"],[90,109,"OUTCOME"]]}
+{"id":38,"text":"At the 12-month follow-up, the mean refractive cylinder was -0.22 ± 0.24 diopters.","Comments":[],"label":[[36,55,"OUTCOME"]]}
+{"id":39,"text":"At the final follow-up, 17 eyes (85.0%) had a BSCVA of 20\/25 or better and 20 eyes (100%) had a BSCVA of 20\/40 or better.","Comments":[],"label":[[46,51,"OUTCOME"],[96,101,"OUTCOME"]]}
+{"id":40,"text":"The mean postoperative spherical equivalent was -0.03 ± 0.31 diopters, and the mean postoperative refractive cylinder was -0.33 ± 0.35 diopters at the 1-year follow-up.","Comments":[],"label":[[23,44,"OUTCOME"],[99,117,"OUTCOME"]]}
+{"id":42,"text":"A 68-year-old woman developed severe persistent photopsia, dysphotopsia and visual disturbance due to retinal damage caused by the Z9000 multifocal intraocular lens.","Comments":[],"label":[[37,57,"ADVERSE_EVENT"],[59,71,"ADVERSE_EVENT"],[76,94,"ADVERSE_EVENT"],[102,116,"ADVERSE_EVENT"]]}
+{"id":43,"text":"A 72-year-old woman developed a retinal detachment and macular hole after implantation of the AcrySof IQ PanOptix trifocal intraocular lens.","Comments":[],"label":[[32,49,"ADVERSE_EVENT"],[55,67,"ADVERSE_EVENT"]]}
+{"id":44,"text":"A 65-year-old woman developed persistent intraocular inflammation and hypotony due to a reaction to the haptic material of the Akreos Adapt intraocular lens.","Comments":[],"label":[[41,65,"ADVERSE_EVENT"],[70,78,"ADVERSE_EVENT"]]}
+{"id":45,"text":"A 62-year-old man developed uveitis and glaucoma after implantation of the ReSTOR multifocal intraocular lens.","Comments":[],"label":[[28,35,"ADVERSE_EVENT"],[40,48,"ADVERSE_EVENT"]]}
+{"id":46,"text":"A 60-year-old woman experienced chronic glare and halos after implantation of the AT LISA tri 839MP multifocal intraocular lens.","Comments":[],"label":[[32,45,"ADVERSE_EVENT"],[50,55,"ADVERSE_EVENT"]]}
+{"id":47,"text":"A 58-year-old woman developed posterior capsular opacification and cystoid macular edema after implantation of the Tecnis ZCB00 intraocular lens.","Comments":[],"label":[[30,62,"ADVERSE_EVENT"],[67,88,"ADVERSE_EVENT"]]}
+{"id":48,"text":"A 50-year-old man developed corneal decompensation and bullous keratopathy after implantation of the Verisyse phakic intraocular lens.","Comments":[],"label":[[28,50,"ADVERSE_EVENT"],[55,74,"ADVERSE_EVENT"]]}
+{"id":49,"text":"A 70-year-old man developed severe dry eyes and photophobia after implantation of the AcrySof IQ monofocal intraocular lens.","Comments":[],"label":[[28,43,"ADVERSE_EVENT"],[48,59,"ADVERSE_EVENT"]]}
+{"id":50,"text":"A 55-year-old woman developed chronic iritis and recurrent cystoid macular edema after implantation of the AMO Array multifocal intraocular lens.","Comments":[],"label":[[30,44,"ADVERSE_EVENT"],[49,80,"ADVERSE_EVENT"]]}
+{"id":51,"text":"A 61-year-old woman developed posterior capsular opacification and chronic iritis after implantation of the Hoya AF-1 intraocular lens.","Comments":[],"label":[[30,62,"ADVERSE_EVENT"],[67,81,"ADVERSE_EVENT"]]}
+{"id":52,"text":"Patient reported experiencing blurred vision after receiving the AcrySof IQ ReSTOR multifocal intraocular lens.","Comments":[],"label":[[30,44,"ADVERSE_EVENT"]]}
+{"id":53,"text":"Post-operative inflammation was observed in patients implanted with the Tecnis Symfony intraocular lens.","Comments":[],"label":[[0,27,"ADVERSE_EVENT"]]}
+{"id":54,"text":"Several patients experienced halos and glare after being implanted with the ReZoom multifocal intraocular lens.","Comments":[],"label":[[29,34,"ADVERSE_EVENT"],[39,44,"ADVERSE_EVENT"]]}
+{"id":55,"text":"The Crystalens HD intraocular lens caused a patient to experience decreased contrast sensitivity and night vision problems.","Comments":[],"label":[[66,96,"ADVERSE_EVENT"],[101,122,"ADVERSE_EVENT"]]}
+{"id":56,"text":"Patient complained of persistent pain and redness following implantation of the AcrySof IQ Toric intraocular lens.","Comments":[],"label":[[22,37,"ADVERSE_EVENT"],[42,49,"ADVERSE_EVENT"]]}
+{"id":57,"text":"The ReSTOR multifocal intraocular lens caused a patient to experience glare and difficulty with night vision.","Comments":[],"label":[[70,75,"ADVERSE_EVENT"],[80,108,"ADVERSE_EVENT"]]}
+{"id":58,"text":"A patient implanted with the Tecnis Symfony intraocular lens reported double vision and difficulty with near vision.","Comments":[],"label":[[70,83,"ADVERSE_EVENT"],[88,115,"ADVERSE_EVENT"]]}
+{"id":59,"text":"Post-operative inflammation and elevated intraocular pressure were observed in several patients implanted with the ReZoom multifocal intraocular lens.","Comments":[],"label":[[0,27,"ADVERSE_EVENT"],[32,61,"ADVERSE_EVENT"]]}
+{"id":60,"text":"Patient experienced hazy vision and discomfort following implantation of the Crystalens AO intraocular lens.","Comments":[],"label":[[20,31,"ADVERSE_EVENT"],[36,46,"ADVERSE_EVENT"]]}
+{"id":61,"text":"The AcrySof IQ intraocular lens caused a patient to experience persistent glare and halos.","Comments":[],"label":[[63,79,"ADVERSE_EVENT"],[84,90,"ADVERSE_EVENT"]]}
+{"id":62,"text":"Three patients in the Acrysof group had an intraoperative posterior capsular tear.","Comments":[],"label":[[43,81,"ADVERSE_EVENT"]]}
+{"id":63,"text":"One patient in the IOL A group experienced mild glare at the 6-month postoperative visit.","Comments":[],"label":[[43,53,"ADVERSE_EVENT"]]}
+{"id":64,"text":"In the toric group, two patients experienced mild glare and one patient had a mild halo effect at the 3-month postoperative visit.","Comments":[],"label":[[45,55,"ADVERSE_EVENT"],[78,87,"ADVERSE_EVENT"]]}
+{"id":65,"text":"One patient in the Tecnis group experienced mild glare and halos at the 6-month postoperative visit.","Comments":[],"label":[[44,54,"ADVERSE_EVENT"],[59,64,"ADVERSE_EVENT"]]}
+{"id":66,"text":"There were no intraoperative complications, but two patients in the AcrySof group experienced mild glare at the 6-month postoperative visit.","Comments":[],"label":[[94,104,"ADVERSE_EVENT"]]}
+{"id":67,"text":"One patient in the Tecnis group experienced a posterior capsular tear during surgery and required additional surgical intervention.","Comments":[],"label":[[46,69,"ADVERSE_EVENT"]]}
+{"id":68,"text":"One patient in the IOL A group experienced mild halos at the 3-month postoperative visit.","Comments":[],"label":[[43,53,"ADVERSE_EVENT"]]}
+{"id":69,"text":"One patient in the toric group experienced a posterior capsular tear during surgery and required additional surgical intervention.","Comments":[],"label":[[45,68,"ADVERSE_EVENT"]]}
+{"id":70,"text":"In the AcrySof group, one patient experienced mild glare and one patient experienced a posterior capsular tear during surgery and required additional surgical intervention.","Comments":[],"label":[[46,56,"ADVERSE_EVENT"],[87,110,"ADVERSE_EVENT"]]}
+{"id":71,"text":"One patient in the IOL B group experienced mild halos at the 6-month postoperative visit.","Comments":[],"label":[[43,53,"ADVERSE_EVENT"]]}
+{"id":73,"text":"The sample consisted of one hundred and twenty (120) participants.","Comments":[],"label":[[24,52,"SAMPLE_SIZE"]]}
+{"id":74,"text":"In total, four hundred and eighty-seven (487) patients were screened for inclusion in the study.","Comments":[],"label":[[10,45,"SAMPLE_SIZE"]]}
+{"id":75,"text":"Fifty-five (55) participants were randomized to the treatment group and fifty-seven (57) to the control group.","Comments":[],"label":[[0,15,"SAMPLE_SIZE"]]}
+{"id":76,"text":"The study included three hundred and twenty-six (326) patients with mild-to-moderate symptoms of the disease.","Comments":[],"label":[[19,53,"SAMPLE_SIZE"]]}
+{"id":77,"text":"The patient developed cystoid macular edema (CME) postoperatively which resolved with conservative management.","Comments":[],"label":[[22,49,"ADVERSE_EVENT"]]}
+{"id":78,"text":"The patient presented with hypopyon and was treated with intravitreal antibiotics.","Comments":[],"label":[[27,35,"ADVERSE_EVENT"]]}
+{"id":79,"text":"The patient developed endophthalmitis and required vitrectomy and intravitreal antibiotics.","Comments":[],"label":[[22,37,"ADVERSE_EVENT"]]}
+{"id":80,"text":"The patient had a lens dislocation and required surgical intervention for repositioning.","Comments":[],"label":[[18,34,"ADVERSE_EVENT"]]}
+{"id":81,"text":"The patient presented with pupillary block and was treated with peripheral iridectomy.","Comments":[],"label":[[27,42,"ADVERSE_EVENT"]]}
+{"id":82,"text":"The patient developed retinal detachment and underwent vitrectomy with scleral buckle and gas tamponade.","Comments":[],"label":[[22,40,"ADVERSE_EVENT"]]}
+{"id":83,"text":"The patient presented with corneal stroma edema which resolved with topical treatment.","Comments":[],"label":[[27,47,"ADVERSE_EVENT"]]}
+{"id":84,"text":"The patient developed iritis and was treated with topical corticosteroids.","Comments":[],"label":[[22,28,"ADVERSE_EVENT"]]}
+{"id":85,"text":"The patient had elevated intraocular pressure and required topical medication for management.","Comments":[],"label":[[16,45,"ADVERSE_EVENT"]]}
+{"id":86,"text":"The patient developed posterior capsule opacification and underwent Nd:YAG laser capsulotomy.","Comments":[],"label":[[22,53,"ADVERSE_EVENT"]]}
+{"id":87,"text":"The patient developed uveitis-glaucoma-hyphema syndrome and required surgical intervention.","Comments":[],"label":[[22,55,"ADVERSE_EVENT"]]}
+{"id":88,"text":"The patient experienced refractive surprise and required enhancement surgery.","Comments":[],"label":[[24,43,"ADVERSE_EVENT"]]}
+{"id":89,"text":"The wrong lens was implanted in the patient and required lens exchange surgery.","Comments":[],"label":[[4,28,"ADVERSE_EVENT"]]}
+{"id":90,"text":"The patient had measurement errors during preoperative biometry and required secondary lens implantation.","Comments":[],"label":[[16,34,"ADVERSE_EVENT"]]}
+{"id":91,"text":"The patient had Descemet membrane tears during surgery and required corneal transplant.","Comments":[],"label":[[16,39,"ADVERSE_EVENT"]]}
+{"id":92,"text":"The patient experienced negative dysphotopsia and required secondary surgical intervention.","Comments":[],"label":[[24,45,"ADVERSE_EVENT"]]}
+{"id":94,"text":"The patient had suprachoroidal hemorrhage and required surgical intervention.","Comments":[],"label":[[16,41,"ADVERSE_EVENT"]]}
+{"id":95,"text":"The patient developed toxic anterior segment syndrome and was treated with topical and systemic antibiotics.","Comments":[],"label":[[22,53,"ADVERSE_EVENT"]]}
+{"id":72,"text":"Two hundred and fifty-four (254) patients were enrolled in the study.","Comments":[],"label":[[0,32,"SAMPLE_SIZE"]]}
+{"id":93,"text":"The patient experienced positive dysphotopsia which resolved spontaneously.","Comments":[],"label":[[24,45,"ADVERSE_EVENT"]]}
+{"id":96,"text":"The patient had vitreous detachment postoperatively which resolved spontaneously.","Comments":[],"label":[[16,51,"ADVERSE_EVENT"]]}
+{"id":97,"text":"The patient's UDVA improved from 0.6 to 0.8 logMAR.","Comments":[],"label":[[13,18,"OUTCOME"]]}
+{"id":98,"text":"CDVA remained stable at 0.1 logMAR throughout the follow-up period.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":99,"text":"The patient reported improved UIVA with the new correction.","Comments":[],"label":[[30,34,"OUTCOME"]]}
+{"id":100,"text":"DCIVA remained unchanged at 0.3 logMAR throughout the follow-up period.","Comments":[],"label":[[0,5,"OUTCOME"]]}
+{"id":101,"text":"CIVA improved from 0.3 to 0.1 logMAR with the new correction.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":102,"text":"UNVA remained stable at 0.2 logMAR throughout the follow-up period.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":103,"text":"DCNVA improved from 0.3 to 0.1 logMAR with the new correction.","Comments":[],"label":[[0,5,"OUTCOME"]]}
+{"id":104,"text":"CNVA remained stable at 0.1 logMAR throughout the follow-up period.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":105,"text":"BCVA improved from 0.1 to 0.0 logMAR with the new correction.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":106,"text":"The patient reported improved VISTAS scores with the new correction.","Comments":[],"label":[[30,36,"OUTCOME"]]}
+{"id":107,"text":"NEI VFQ-39 scores improved in all subscales with the new correction.","Comments":[],"label":[[0,10,"OUTCOME"]]}
+{"id":108,"text":"NEI VFQ-25 scores improved in all subscales with the new correction.","Comments":[],"label":[[0,11,"OUTCOME"]]}
+{"id":109,"text":"NEI RQL-42 scores improved in all subscales with the new correction.","Comments":[],"label":[[0,10,"OUTCOME"]]}
+{"id":110,"text":"QIRC scores improved with the new correction.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":111,"text":"Catquest scores improved with the new correction.","Comments":[],"label":[[0,8,"OUTCOME"]]}
+{"id":112,"text":"VF-14 scores improved with the new correction.","Comments":[],"label":[[0,5,"OUTCOME"]]}
+{"id":113,"text":"VF-7 scores improved with the new correction.","Comments":[],"label":[[0,4,"OUTCOME"]]}
+{"id":114,"text":"The patient's uncorrected distance visual acuity was measured using a Snellen chart and found to be 20\/40 in the right eye and 20\/50 in the left eye.","Comments":[],"label":[[14,48,"OUTCOME"]]}
+{"id":115,"text":"The patient's corrected distance visual acuity was measured using a Snellen chart and found to be 20\/20 in both eyes.","Comments":[],"label":[[14,46,"OUTCOME"]]}
+{"id":116,"text":"The patient's uncorrected intermediate visual acuity was measured using a Snellen chart and found to be 20\/40 in the right eye and 20\/50 in the left eye.","Comments":[],"label":[[14,52,"OUTCOME"]]}
+{"id":117,"text":"The patient's distance corrected intermediate visual acuity was measured using a Snellen chart and found to be 20\/20 in both eyes.","Comments":[],"label":[[14,59,"OUTCOME"]]}
+{"id":118,"text":"The patient's corrected intermediate visual acuity was measured using a Snellen chart and found to be 20\/20 in both eyes.","Comments":[],"label":[[14,50,"OUTCOME"]]}
+{"id":119,"text":"The patient's uncorrected near visual acuity was measured using a Snellen chart and found to be 20\/50 in the right eye and 20\/60 in the left eye.","Comments":[],"label":[[14,44,"OUTCOME"]]}
+{"id":120,"text":"The patient's distance corrected near visual acuity was measured using a Snellen chart and found to be 20\/20 in both eyes.","Comments":[],"label":[[14,51,"OUTCOME"]]}
+{"id":121,"text":"The patient's corrected near visual acuity was measured using a Snellen chart and found to be 20\/20 in both eyes.","Comments":[],"label":[[14,42,"OUTCOME"]]}
+{"id":122,"text":"The patient's best corrected (distance) visual acuity was measured using a Snellen chart and found to be 20\/20 in both eyes.","Comments":[],"label":[[14,53,"OUTCOME"]]}
+{"id":123,"text":"The patient's functional assessment of visual tasks (VISTAS) score was 85 out of 100.","Comments":[],"label":[[39,60,"OUTCOME"]]}
+{"id":124,"text":"The patient's National Eye Institute Visual Function Questionnaire-39 (NEI VFQ-39) score was 92 out of 100.","Comments":[],"label":[[13,82,"OUTCOME"]]}
+{"id":125,"text":"The patient's National Eye Institute Visual Function Questionnaire-25 (NEI VFQ-25) score was 85 out of 100.","Comments":[],"label":[[14,82,"OUTCOME"]]}
+{"id":126,"text":"The patient's National Eye Institute Refractive Error Quality of Life Instrument-42 (NEI RQL-42) score was 85 out of 100.","Comments":[],"label":[[14,96,"OUTCOME"]]}
+{"id":127,"text":"The patient's Quality of Life Impact of Refractive Correction (QIRC) score was 80 out of 100.","Comments":[],"label":[[14,68,"OUTCOME"]]}
+{"id":128,"text":"The patient's Catquest score was 92 out of 100.","Comments":[],"label":[[14,22,"OUTCOME"]]}
+{"id":129,"text":"The patient received an AcrySof IQ intraocular lens during cataract surgery.","Comments":[],"label":[[24,34,"DEVICE"]]}
+{"id":130,"text":"The AMO Tecnis ZCB00 intraocular lens was implanted successfully in the patient's right eye.","Comments":[],"label":[[4,20,"DEVICE"]]}
+{"id":131,"text":"The patient underwent cataract surgery with implantation of a Alcon AcrySof IQ SN60WF intraocular lens.","Comments":[],"label":[[62,85,"DEVICE"]]}
+{"id":132,"text":"The surgeon chose a Bausch and Lomb enVista MX60 intraocular lens for the patient's cataract surgery.","Comments":[],"label":[[20,48,"DEVICE"]]}
+{"id":133,"text":"The patient's cataract was removed and a Johnson & Johnson Tecnis Symfony intraocular lens was implanted.","Comments":[],"label":[[41,73,"DEVICE"]]}
+{"id":134,"text":"A Carl Zeiss AT LARA 829MP intraocular lens was implanted during the patient's cataract surgery.","Comments":[],"label":[[2,26,"DEVICE"]]}
+{"id":135,"text":"The patient underwent cataract surgery with implantation of a HumanOptics Artisan intraocular lens.","Comments":[],"label":[[62,81,"DEVICE"]]}
+{"id":136,"text":"The surgeon implanted a Rayner C-flex 570C intraocular lens during the patient's cataract surgery.","Comments":[],"label":[[24,42,"DEVICE"]]}
+{"id":137,"text":"The patient received a Hoya iSert 250 intraocular lens during cataract surgery.","Comments":[],"label":[[23,37,"DEVICE"]]}
+{"id":138,"text":"The cataract was removed and a PhysIOL FineVision intraocular lens was implanted in the patient's eye.","Comments":[],"label":[[31,49,"DEVICE"]]}
+{"id":139,"text":"The patient received an AcrySof IQ intraocular lens (IOL) during the surgery.","Comments":[],"label":[[24,34,"DEVICE"]]}
+{"id":140,"text":"We used a Tecnis Symfony intraocular lens (IOL) in this case.","Comments":[],"label":[[10,24,"DEVICE"]]}
+{"id":141,"text":"The Crystalens intraocular lens (IOL) was implanted in the patient's eye.","Comments":[],"label":[[4,14,"DEVICE"]]}
+{"id":142,"text":"The AcrySof ReSTOR intraocular lens (IOL) was implanted in the patient's right eye.","Comments":[],"label":[[4,18,"DEVICE"]]}
+{"id":143,"text":"We selected a PanOptix intraocular lens (IOL) for this patient.","Comments":[],"label":[[14,22,"DEVICE"]]}
+{"id":144,"text":"The patient underwent cataract surgery and received a Symfony intraocular lens (IOL).","Comments":[],"label":[[54,61,"DEVICE"]]}
+{"id":145,"text":"The Toric intraocular lens (IOL) was chosen for its astigmatism-correcting properties.","Comments":[],"label":[]}
+{"id":146,"text":"The patient opted for a Tecnis multifocal intraocular lens (IOL) to improve their vision.","Comments":[],"label":[[24,41,"DEVICE"]]}
+{"id":147,"text":"We implanted an AcrySof IQ PanOptix trifocal intraocular lens (IOL) to correct the patient's vision.","Comments":[],"label":[[16,44,"DEVICE"]]}
+{"id":148,"text":"The patient received a ReSTOR multifocal intraocular lens (IOL) in their right eye during the surgery.","Comments":[],"label":[[23,40,"DEVICE"]]}
+{"id":149,"text":"The patient received an IOL implant of model number XYR11.","Comments":[],"label":[[52,57,"DEVICE"]]}
+{"id":150,"text":"The model number of the implanted IOL was LKJ22.","Comments":[],"label":[[42,47,"DEVICE"]]}
+{"id":151,"text":"The patient underwent cataract surgery with implantation of model number TYZ45.","Comments":[],"label":[[73,78,"DEVICE"]]}
