@@ -1,6 +1,10 @@
 import fitz
 import spacy
 
+
+# Force SpaCy to use GPU
+spacy.prefer_gpu()
+
 # Load the SpaCy model
 nlp = spacy.load("Model/model-best")
 
@@ -11,7 +15,7 @@ colors = {"OUTCOME": [0.8, 1, 0.8],  # light green color (r, g, b)
           "DEVICE": [0.8, 0.8, 1]}  # light blue color (r, g, b)
 
 # Open the PDF file using PyMuPDF
-pdf_file = fitz.open("pdfs/test.pdf")
+pdf_file = fitz.open("pdfs/test2.pdf")
 
 # Loop over each page in the PDF file
 for page_num in range(len(pdf_file)):
