@@ -81,4 +81,3 @@ if __name__ == "__main__":
         validation_output_path='input/validation.spacy',
         test_output_path='input/test.spacy'
         )
-

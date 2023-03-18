@@ -2,6 +2,6 @@
     "venv_path": ".OPHT_SPACY",
     "jsonl_to_convert" :"input/clean_GPT.jsonl",
     "jsonl_train_ratio": 0.7,
-    "jsonl_valid_ratio": 0.29 ,
-    "jsonl_test_ratio":0.01
+    "jsonl_valid_ratio": 0.2,
+    "jsonl_test_ratio":0.1
 }

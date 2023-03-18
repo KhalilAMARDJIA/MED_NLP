@@ -15,6 +15,9 @@ def highlight_pdf(pdf_file_path: str, output_file_path: str, model: str, colors:
     Returns:
         None
     """
+
+    spacy.prefer_gpu()
+
     # Load the SpaCy model
     nlp = spacy.load(model)
 
@@ -56,8 +59,10 @@ if __name__ == "__main__":
     colors = {
         "OUTCOME": [0.8, 1, 0.8],         # light green color (r, g, b)
         "ADVERSE_EVENT": [1, 0.8, 0.8],   # light red color (r, g, b)
+        "STUDY_DESIGN": [0.9 , 0.9 , 0.9], # light gray color (r,g,b)
+        "DEVICE": [0.8, 0.8, 1],           # light blue color (r, g, b),
         "OTHER": [1, 1, 0.8],             # light yellow color (r, g, b)
-        "DEVICE": [0.8, 0.8, 1]           # light blue color (r, g, b)
+        "AGE": [250/255 ,40/255 ,255/255] # purple color (r,g,b) from hex code #FA28FF
     }
 
     # Define the SpaCy model to use
