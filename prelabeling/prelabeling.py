@@ -2,7 +2,12 @@ import spacy
 import jsonlines
 import pandas as pd
 
-nlp = spacy.load('Model/model-best')
+nlp = spacy.load('Model/scibert_scivocab_uncased')
+
+# add entity ruler
+ruler = nlp.add_pipe("entity_ruler")
+ruler.from_disk('input/matcher_db/entity_ruler_df.jsonl')
+
 
 dat = pd.read_csv('input/raw_data.csv', sep=";")
 dat = dat.abstract.dropna()
