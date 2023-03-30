@@ -1,7 +1,44 @@
 {
     "venv_path": ".OPHT_SPACY",
-    "jsonl_to_convert" :"input/clean_GPT.jsonl",
+    "jsonl_to_convert": "input/clean_GPT.jsonl",
     "jsonl_train_ratio": 0.7,
     "jsonl_valid_ratio": 0.3,
-    "jsonl_test_ratio":0.0
+    "jsonl_test_ratio": 0.0,
+    "model": "Model/scibert_scivocab_uncased",
+    "config_path": "project_config.json",
+    "pdf_folder_path": "pdfs",
+    "ner": {
+        "med_ner": {
+            "OUTCOME": [
+                0.8,
+                1,
+                0.8
+            ],
+            "ADVERSE_EVENT": [
+                1,
+                0.8,
+                0.8
+            ],
+            "STUDY_DESIGN": [
+                0.9,
+                0.9,
+                0.9
+            ],
+            "DEVICE": [
+                0.8,
+                0.8,
+                1
+            ],
+            "OTHER": [
+                1,
+                1,
+                0.8
+            ],
+            "AGE": [
+                0.98,
+                0.157,
+                1
+            ]
+        }
+    }
 }
