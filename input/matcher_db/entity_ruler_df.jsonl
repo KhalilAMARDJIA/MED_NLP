@@ -1,0 +1,31 @@
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "corneal"}, {"lower": "edema"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "lens"}, {"lower": "dislocation"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "retinal"}, {"lower": "detachment"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "cystoid"}, {"lower": "macular"}, {"lower": "edema"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "posterior"}, {"lower": "capsule"}, {"lower": "opacification"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "uveitis"}, {"lower": "glaucoma"}, {"lower": "hyphema"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "refractive"}, {"lower": "surprise"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "biometric"}, {"lower": "measurement"}, {"lower": "errors"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "descemet"}, {"lower": "membrane"}, {"lower": "tears"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "descemet"}, {"lower": "membrane"}, {"lower": "detachment"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "dysphotopsia"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "glistening"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "halo"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "starburst"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "glare"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "blurred"}, {"lower": "vision"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "optical"}, {"lower": "aberration"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "scotoma"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "photic"}, {"lower": "phenomena"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "posterior"}, {"lower": "capsular"}, {"lower": "rupture"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "suprachoroidal"}, {"lower": "hemorrhage"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "vitreous"}, {"lower": "hemorrhage"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "toxic"}, {"lower": "anterior"}, {"lower": "segment"}, {"lower": "syndrome"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "endophthalmitis"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "retinal"}, {"lower": "detachment"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "uveitis"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "hyphema"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "suprachoroidal"}, {"lower": "hemorrhage"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "vitreous"}, {"lower": "hemorrhage"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "glare"}]}
+{"label": "ADVERSE_EVENT", "pattern": [{"lower": "dysphotopsia"}]}
