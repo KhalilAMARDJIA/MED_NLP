@@ -7,7 +7,8 @@
     "model": "Model/scibert_scivocab_uncased",
     "config_path": "project_config.json",
     "pdf_folder_path": "pdfs",
-    "ner": {
+    "output_folder_path": "pdfs/output",
+    "ner_colors": {
         "med_ner": {
             "OUTCOME": [
                 0.8,
