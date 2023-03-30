@@ -8,6 +8,7 @@
     "config_path": "project_config.json",
     "pdf_folder_path": "pdfs",
     "output_folder_path": "pdfs/output",
+    "entity_ruler_path": "input/matcher_db/entity_ruler_df.jsonl",
     "ner_colors": {
         "med_ner": {
             "OUTCOME": [

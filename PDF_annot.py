@@ -4,13 +4,14 @@ import os
 import json
 from tqdm import tqdm
 
-def load_spacy_model(model_name: str, use_gpu: bool = False) -> spacy.language.Language:
+def load_spacy_model(model_name: str, use_gpu: bool = False, entity_ruler_path: str = None) -> spacy.language.Language:
     """
     Loads a SpaCy NER model and sets up GPU acceleration if specified.
 
     Args:
         model_name (str): The name of the SpaCy model to load.
         use_gpu (bool): Whether or not to use GPU acceleration. Defaults to False.
+        entity_ruler_path (str): The path to the EntityRuler patterns file. Defaults to None.
 
     Returns:
         The loaded SpaCy model.
@@ -20,7 +21,13 @@ def load_spacy_model(model_name: str, use_gpu: bool = False) -> spacy.language.L
     else:
         spacy.require_cpu()
 
-    return spacy.load(model_name)
+    nlp = spacy.load(model_name)
+
+    if entity_ruler_path:
+        entity_ruler = nlp.add_pipe("entity_ruler")
+        entity_ruler.from_disk(entity_ruler_path)
+
+    return nlp
 
 def load_config(config_path: str) -> dict:
     """
@@ -88,8 +95,9 @@ if __name__ == "__main__":
     # Define the path to the project configuration JSON file
     config_path = project_config['config_path']
 
+    entity_ruler_path = project_config['entity_ruler_path']
     # Load the SpaCy model
-    nlp_model = load_spacy_model(model_name, use_gpu=False)
+    nlp_model = load_spacy_model(model_name, use_gpu=False, entity_ruler_path=entity_ruler_path)
 
     # Load the project configuration JSON file
     config = load_config(config_path)
