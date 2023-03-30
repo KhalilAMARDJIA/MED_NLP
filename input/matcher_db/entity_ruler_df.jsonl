@@ -29,3 +29,38 @@
 {"label": "ADVERSE_EVENT", "pattern": [{"lower": "vitreous"}, {"lower": "hemorrhage"}]}
 {"label": "ADVERSE_EVENT", "pattern": [{"lower": "glare"}]}
 {"label": "ADVERSE_EVENT", "pattern": [{"lower": "dysphotopsia"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "uncorrected"}, {"lower": "distance"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "corrected"}, {"lower": "distance"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "uncorrected"}, {"lower": "intermediate"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "distance"}, {"lower": "corrected"}, {"lower": "intermediate"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "corrected"}, {"lower": "intermediate"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "uncorrected"}, {"lower": "near"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "distance"}, {"lower": "corrected"}, {"lower": "near"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "corrected"}, {"lower": "near"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "best"}, {"lower": "corrected"}, {"lower": "visual"}, {"lower": "acuity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "contrast"}, {"lower": "sensitivity"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "visual function index"}, {"lower": "-"}, {"lower": "14"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "visual function index"}, {"lower": "-"}, {"lower": "7"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "vcm"}, {"lower": "-"}, {"lower": "1"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "cat-prom5"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "near"}, {"lower": "activity"}, {"lower": "visual"}, {"lower": "questionnaire"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "patient-reported"}, {"lower": "spectacle"}, {"lower": "independence"}, {"lower": "questionnaire"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "spectacle"}, {"lower": "independence"}, {"lower": "lens"}, {"lower": "vision"}, {"lower": "evaluation"}, {"lower": "and"}, {"lower": "repurchase"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "freedom"}, {"lower": "from"}, {"lower": "glasses"}, {"lower": "value"}, {"lower": "scale"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "quality"}, {"lower": "of"}, {"lower": "vision"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "assessment"}, {"lower": "of"}, {"lower": "photic"}, {"lower": "phenomena"}, {"lower": "and"}, {"lower": "lens"}, {"lower": "effects"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "pseudophakic"}, {"lower": "dysphotopsia"}, {"lower": "questionnaire"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "visual"}, {"lower": "activities"}, {"lower": "questionnaire"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "cataract"}, {"lower": "type"}, {"lower": "specification"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "visual"}, {"lower": "disability"}, {"lower": "assessment"}, {"lower": "and"}, {"lower": "the"}, {"lower": "cataract"}, {"lower": "outcomes"}, {"lower": "questionnaire"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "visual"}, {"lower": "symptoms"}, {"lower": "and"}, {"lower": "quality"}, {"lower": "of"}, {"lower": "life"}, {"lower": "questionnaire"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "vsq"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "(vsq)"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "pupil"}, {"lower": "size"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "accommodative"}, {"lower": "amplitude"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "subjective"}, {"lower": "refraction"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "lens"}, {"lower": "stability"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "lens"}, {"lower": "tilt"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "lens"}, {"lower": "decentration"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "anterior"}, {"lower": "chamber"}, {"lower": "depth"}]}
+{"label": "OUTCOME", "pattern": [{"lower": "gonioscopy"}]}
