@@ -11,7 +11,7 @@ ruler = nlp.add_pipe("entity_ruler")
 ruler.from_disk("input/matcher_db/entity_ruler_df.jsonl")
 
 
-text = "the patient suffered a cystoid macular edema (CME) and Glistening and suprachoroidal hemorrhage after 3 months follow-up."
+text = "the patient suffered a cystoid macular edema (CME) and Glistening. The suprachoroidal hemorrhage score after 3 months follow-up."
 
 doc = nlp(text)
 
