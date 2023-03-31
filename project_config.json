@@ -4,7 +4,7 @@
     "jsonl_train_ratio": 0.7,
     "jsonl_valid_ratio": 0.3,
     "jsonl_test_ratio": 0.0,
-    "model": "Model/scibert_scivocab_uncased",
+    "model": "Model/BiomedNLP-KRISSBERT-PubMed-UMLS-EL",
     "config_path": "project_config.json",
     "pdf_folder_path": "pdfs",
     "output_folder_path": "pdfs/output",
