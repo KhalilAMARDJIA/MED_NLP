@@ -14,7 +14,7 @@ nlp = spacy.load("en_core_sci_lg")
 data = pd.read_csv('input/raw_data.csv', sep=";")
 
 # convert abstracts to list of strings
-sample_text = data['abstract'].sample(30).tolist()
+sample_text = data['abstract'].sample(10).tolist()
 
 # remove linebraks from sample text
 sample_text = [sent.replace("\n", "") for sent in sample_text]
@@ -62,7 +62,7 @@ embedding_gpu = reducer.fit_transform(similarity_matrix_gpu)
 embedding = cp.asnumpy(embedding_gpu)
 
 # cluster the sentences using K-means
-n_clusters = 100
+n_clusters = 20
 kmeans = KMeans(n_clusters=n_clusters)
 clusters = kmeans.fit_predict(embedding)
 
