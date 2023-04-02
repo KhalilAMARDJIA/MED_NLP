@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     entity_ruler_path = project_config['entity_ruler_path']
     # Load the SpaCy model
-    nlp_model = load_spacy_model(model_name, use_gpu=False, entity_ruler_path=entity_ruler_path)
+    nlp_model = load_spacy_model(model_name, use_gpu=True, entity_ruler_path=entity_ruler_path)
 
     # Load the project configuration JSON file
     config = load_config(config_path)

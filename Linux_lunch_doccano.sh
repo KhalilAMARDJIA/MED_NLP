@@ -11,9 +11,9 @@ doccano init
 doccano createuser --username admin --password pass
 
 # need to parse project_config.json to get the base_venv path such as powershell
-VENV_PATH=".OPHT_SPACY/bin/activate"
+VENV_PATH=".env/bin/activate"
 PYTHON_VERSION=$(python --version | awk '{print $2}' | cut -d. -f1,2)
-BACKEND_PATH=".OPHT_SPACY/lib/python$PYTHON_VERSION/site-packages/backend"
+BACKEND_PATH=".env/lib/python$PYTHON_VERSION/site-packages/backend"
 
 # activate virtual environment
 source $VENV_PATH
