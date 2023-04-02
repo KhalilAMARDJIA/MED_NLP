@@ -1,10 +1,11 @@
+import cupy as cp
 import spacy
-import jsonlines
 import pandas as pd
 import numpy as np
+import umap
+import jsonlines
 from sklearn.cluster import KMeans
 
-spacy.prefer_gpu()
 
 # load spacy model
 nlp = spacy.load("en_core_sci_lg")
@@ -15,13 +16,11 @@ data = pd.read_csv('input/raw_data.csv', sep=";")
 # convert abstracts to list of strings
 sample_text = data['abstract'].sample(30).tolist()
 
-
 # remove linebraks from sample text
 sample_text = [sent.replace("\n", "") for sent in sample_text]
 
 # process text with spacy pipeline
 docs = nlp.pipe(sample_text)
-
 
 # initialize list of sentences
 sentences = []
@@ -42,11 +41,30 @@ for i in range(len(sentences)):
         similarity_matrix[i, j] = similarity_score
         similarity_matrix[j, i] = similarity_score
 
+# create a cuUMAP object with the desired parameters
+reducer = umap.UMAP(
+    n_neighbors=15, 
+    min_dist=0.1, 
+    n_components=2, 
+    target_metric='categorical', 
+    target_weight=0.5,
+    target_n_neighbors=3, 
+    random_state=42
+)
+
+# move the similarity matrix to the GPU memory
+similarity_matrix_gpu = cp.asarray(similarity_matrix)
+
+# fit the model on the GPU
+embedding_gpu = reducer.fit_transform(similarity_matrix_gpu)
+
+# move the embedding back to the CPU memory
+embedding = cp.asnumpy(embedding_gpu)
 
 # cluster the sentences using K-means
 n_clusters = 100
 kmeans = KMeans(n_clusters=n_clusters)
-clusters = kmeans.fit_predict(similarity_matrix)
+clusters = kmeans.fit_predict(embedding)
 
 # for each cluster, select the most different sentence
 selected_sents = []
@@ -57,7 +75,6 @@ for cluster_id in range(n_clusters):
     cluster_similarities = similarity_matrix[cluster_indices][:, cluster_indices]
     most_different_idx = np.argmax(np.sum(cluster_similarities, axis=1))
     selected_sents.append(sentences[cluster_indices[most_different_idx]])
-
 
 # load new spacy model
 nlp = spacy.load("Model/BiomedNLP-KRISSBERT-PubMed-UMLS-EL")
