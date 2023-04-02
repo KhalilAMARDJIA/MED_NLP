@@ -1,13 +1,14 @@
 import spacy
 import pandas as pd
 
-
 # load spacy model
 nlp = spacy.load("Model/scibert_scivocab_cased")
 
+nlp.prefer_gpu()
+
 data = pd.read_csv('input/raw_data.csv', sep=";")
 
-data = data[data['abstract'].notna()].sample(10)
+data = data[data['abstract'].notna()].sample(100)
 
 zip_data = zip(data['abstract'], data['pubmed_id'])
 
@@ -27,4 +28,6 @@ for doc, pmid in nlp.pipe(zip_data, as_tuples=True):
             if data.loc[data['pubmed_id'] == pmid, ent.label_].empty:
                 data.loc[data['pubmed_id'] == pmid, ent.label_] = ent.text
             else:
-                data.loc[data['pubmed_id'] == pmid, ent.label_] += '\t' + ent.text
+                data.loc[data['pubmed_id'] == pmid, ent.label_] +=  ent.text + '|' 
+
+data.to_csv("output/NER_summary.csv", sep=',')
