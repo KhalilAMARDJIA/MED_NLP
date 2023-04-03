@@ -9,7 +9,7 @@ def extract_ner_from_data(input_file, output_file, model_name, id_col, text_col,
     data = pd.read_csv(input_file, sep=separator)
 
     # remove rows where abstract is null
-    data = data[data[text_col].notna()].sample(10)
+    data = data[data[text_col].notna()]
 
     # create a empty columns for each nlp ner label name in the data
     for column in nlp.pipe_labels['ner']:
@@ -49,4 +49,10 @@ def remove_duplicate_keep_longest(text):
         return text
 
 
-extract_ner_from_data('input/raw_data.csv', 'output/NER_summary.csv', 'Model/scibert_scivocab_cased', id_col='pubmed_id', text_col='abstract', separator=';')
+extract_ner_from_data(
+    input_file='input/raw_data.csv', 
+    output_file = 'output/NER_summary.csv', 
+    model_name = 'Model/scibert_scivocab_cased', 
+    id_col='pubmed_id', 
+    text_col='abstract', 
+    separator=';')
