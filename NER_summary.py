@@ -1,7 +1,7 @@
 import spacy
 import pandas as pd
 
-def extract_ner_from_data(input_file, output_file, model_name, id_col='pubmed_id', abstract_col='abstract', separator=';'):
+def extract_ner_from_data(input_file, output_file, model_name, id_col, text_col, separator=','):
     # load spacy model
     nlp = spacy.load(model_name)
 
@@ -9,7 +9,7 @@ def extract_ner_from_data(input_file, output_file, model_name, id_col='pubmed_id
     data = pd.read_csv(input_file, sep=separator)
 
     # remove rows where abstract is null
-    data = data[data[abstract_col].notna()]
+    data = data[data[text_col].notna()].sample(10)
 
     # create a empty columns for each nlp ner label name in the data
     for column in nlp.pipe_labels['ner']:
@@ -17,7 +17,7 @@ def extract_ner_from_data(input_file, output_file, model_name, id_col='pubmed_id
 
     # for each pmid matching pubmed_id, store doc.ents in its corresponding column
     # when multiple entities are found, separate them by a tab
-    zip_data = zip(data[abstract_col], data[id_col])
+    zip_data = zip(data[text_col], data[id_col])
     for doc, pmid in nlp.pipe(zip_data, as_tuples=True):
         for ent in doc.ents:
             if ent.label_ in data.columns:
@@ -49,4 +49,4 @@ def remove_duplicate_keep_longest(text):
         return text
 
 
-extract_ner_from_data('input/raw_data.csv', 'output/NER_summary.csv', 'Model/scibert_scivocab_cased', id_col='pmid', abstract_col='article_text', separator=',')
+extract_ner_from_data('input/raw_data.csv', 'output/NER_summary.csv', 'Model/scibert_scivocab_cased', id_col='pubmed_id', text_col='abstract', separator=';')
