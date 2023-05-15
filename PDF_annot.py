@@ -116,7 +116,7 @@ if __name__ == "__main__":
     for pdf_file in pdf_files:
         # Construct the input and output file paths
         input_file_path = os.path.join(pdf_folder_path, pdf_file)
-        output_file_name = os.path.splitext(pdf_file)[0] + '_highlighted.pdf'
+        output_file_name = os.path.splitext(pdf_file)[0] + '_HL.pdf'
         output_file_path = os.path.join(project_config['output_folder_path'], output_file_name)
 
         # Highlight named entities in the PDF file and save the modified file
