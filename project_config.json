@@ -4,7 +4,7 @@
     "jsonl_train_ratio": 0.7,
     "jsonl_valid_ratio": 0.2,
     "jsonl_test_ratio": 0.1,
-    "model": "Model/scibert_scivocab_cased",
+    "model": "Model/biomedical-ner-all",
     "config_path": "project_config.json",
     "pdf_folder_path": "pdfs",
     "output_folder_path": "pdfs/output",
